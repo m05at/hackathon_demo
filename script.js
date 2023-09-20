@@ -52,9 +52,9 @@ function updateBalance() {
 
     const balance = totalIncome - totalExpense;
 
-    document.getElementById("totalIncome").textContent = `{totalIncome.toFixed(2)}`;
-    document.getElementById("totalExpense").textContent = `{totalExpense.toFixed(2)}`;
-    document.getElementById("balanceAmount").textContent = `{balance.toFixed(2)}`;
+    document.getElementById("totalIncome").textContent = `$${totalIncome.toFixed(2)}`;
+    document.getElementById("totalExpense").textContent = `$${totalExpense.toFixed(2)}`;
+    document.getElementById("balanceAmount").textContent = `$${balance.toFixed(2)}`;
 }
 
 function deleteTransaction(index) {
